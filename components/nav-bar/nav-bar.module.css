@@ -1,0 +1,27 @@
+.navbarWrapper {
+    height: 100px;
+    background-color: cadetblue;
+}
+
+.navbarContentWrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.navbarMenuWrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbarMenuWrap > div {
+    padding: 30px;
+}
+
+.navbarMenuWrap > div:hover {
+    text-decoration: underline;
+    background-color: rgb(73, 119, 121);
+    border-radius: 10px;
+    cursor: pointer;
+}
